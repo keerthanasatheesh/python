@@ -1,0 +1,6 @@
+newFile = open("trial.txt","a")
+newFile.write("ADDED NEW sentence ")
+newFile.close()
+readFile = open("trial.txt","r")
+print(readFile.readlines())
+readFile.close()
